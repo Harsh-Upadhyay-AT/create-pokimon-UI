@@ -42,7 +42,9 @@ const Home = () => {
   };
   return (
     <>
+
     
+
       <div className="list">
         {list.map((item, index) => {
           const pokemonIndex = item?.url?.split("/pokemon/");
